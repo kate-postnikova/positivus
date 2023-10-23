@@ -1,0 +1,41 @@
+.page {
+    font-family: 'Space Grotesk', sans-serif;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.header__logo {
+    width: 220px;
+    height: 36px;
+}
+
+.navigation__items {
+    display: flex;
+    gap: 40px;
+}
+
+.navigation__link {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button {
+    padding: 20px 35px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    border: 1px solid var(--Dark, #191A23);
+    border-radius: 14px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.hero__title {
+}
