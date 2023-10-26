@@ -6,7 +6,7 @@
   "scripts": {
     "check": "prettier --check './**/*.{html,css,js}'",
     "format": "prettier --write './**/*.{html,css,js}'",
-    "lint": "stylelint '**/*.css'",
+    "lint": "stylelint \"**/*.css\"",
     "lintfix": "stylelint '**/*.css' --fix"
   },
   "author": "",
