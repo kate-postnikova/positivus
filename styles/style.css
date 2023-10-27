@@ -41,7 +41,7 @@
 
 .hero {
   position: relative;
-  margin-bottom: 70px;
+  margin-bottom: 104px;
 }
 
 .hero__title {
@@ -72,4 +72,21 @@
   background-size: contain;
   width: 600px;
   height: 515px;
+}
+
+.clients {
+  margin-bottom: 140px;
+}
+
+.clients-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-container__link {
+  cursor: pointer;
+}
+
+.clients-container__logo {
+  filter: grayscale(100%);
 }
