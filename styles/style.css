@@ -256,3 +256,63 @@
 .accordion__text {
   margin-top: 30px;
 }
+
+.team {
+  margin-bottom: 100px;
+}
+
+.team-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.team-cards_item {
+  padding: 40px 35px;
+  border-radius: 45px;
+  border: 1px solid #191A23;
+  box-shadow: 0 5px 0 0 #191A23;
+}
+
+.team-cards_box {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid #191A23;
+  padding-bottom: 28px;
+}
+
+.team-cards_image {
+  margin-right: 19px;
+}
+
+.team-cards_info {
+  align-self: end;
+}
+
+.team-cards_name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.team-cards_about {
+  font-size: 18px;
+}
+
+.team-cards_link-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.team-cards_summary {
+  font-size: 18px;
+  padding-top: 28px;
+}
+
+.team__button {
+  display: block;
+  margin-left: auto;
+  width: 269px;
+}
