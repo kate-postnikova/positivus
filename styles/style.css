@@ -99,6 +99,7 @@
 
 .title {
   font-size: 40px;
+  display: inline;
 }
 
 .title-highlighting {
@@ -161,7 +162,6 @@
 
 .card__title {
   font-size: 30px;
-  display: block;
 }
 
 .card__link-box {
@@ -202,4 +202,57 @@
   position: absolute;
   top: -25px;
   right: 135px;
+}
+
+.case-studies {
+  margin-bottom: 140px;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.accordion__item {
+  padding: 41px 60px;
+  border-radius: 45px;
+  border: 1px solid #191A23;
+  background:#F3F3F3;
+  box-shadow: 0 5px 0 0 #191A23;
+}
+
+.accordion__item_open {
+  background-color: #B9FF66;
+}
+
+.accordion__title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.accordion__title_open {
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+
+.accordion__title-span {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.accordion__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.accordion__text {
+  margin-top: 30px;
 }
