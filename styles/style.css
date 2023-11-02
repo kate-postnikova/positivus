@@ -513,7 +513,9 @@
   background-color: #191A23;
   padding: 55px 60px;
   border-radius: 45px 45px 0 0;
+  color: #fff;
 }
+
 
 .top-section {
   display: flex;
@@ -524,4 +526,46 @@
 .navigation__link_footer {
   color: #fff;
   text-decoration: underline;
+}
+
+.contact-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 66px;
+}
+
+.contact-block__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 332px; */
+}
+
+.title_footer {
+  margin-bottom: 27px;
+}
+
+.contact-block__form {
+  padding: 58px 40px;
+  background-color: #292A32;
+  border-radius: 14px;
+}
+
+.contact-block__input {
+  width: 285px;
+  border-radius: 14px;
+  border: 1px solid #FFF;
+  padding: 22px 35px;
+  background: transparent;
+  font-size: 18px;
+  font-family: 'Space Grotesk';
+  margin-right: 20px;
+}
+
+.contact-block__button {
+  border-radius: 14px;
+  background: #B9FF66;
+  padding: 20px 35px;
+  border: none;
+  font-size: 20px;
 }
