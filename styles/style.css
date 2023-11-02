@@ -106,6 +106,7 @@
   padding: 0 7px;
   border-radius: 7px;
   font-weight: 500;
+  display: inline;
 }
 
 .title-highlighting_type_white {
@@ -506,4 +507,21 @@
   padding: 18px 30px;
   border-radius: 14px;
   border: 1px solid #000;
+}
+
+.footer {
+  background-color: #191A23;
+  padding: 55px 60px;
+  border-radius: 45px 45px 0 0;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation__link_footer {
+  color: #fff;
+  text-decoration: underline;
 }
